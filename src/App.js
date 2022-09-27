@@ -1,5 +1,6 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -7,9 +8,13 @@ function App() {
       <div className="container">
         <header className="App-header"></header>
         <main>
-          <Dictionary defaultKeyword="night"/>
+          <div className="main">React Dictionary</div>
+          <Dictionary defaultKeyword="night" />
         </main>
-        <footer className="App-footer">codded by Angelina</footer>
+        <footer className="App-footer">
+          codded by Angelina
+          <a href="https://github.com/Ritter1111"> my_github</a>
+        </footer>
       </div>
     </div>
   );
