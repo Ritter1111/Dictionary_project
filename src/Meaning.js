@@ -2,7 +2,6 @@ import React from "react";
 import Synonyms from "./Synonyms";
 
 export default function Meaning(props) {
-  console.log(props.meaning);
   function synonyms() {
     if (props.meaning.synonyms) {
         return <ul className="synonyms">
